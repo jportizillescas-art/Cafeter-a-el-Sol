@@ -1,0 +1,79 @@
+    body {
+       background-color: rgb(116, 116, 114);
+       font-family: Arial, sans-serif;
+       padding: 10px;
+       padding-top: 80px; /* Ajusta el valor según la altura de tu barra de navegación */
+    }
+    
+    
+    h1 {
+       color: rgba(254, 252, 252, 0.992);
+       font-size: 40px;
+       font-family: Arial;
+       text-align: center;
+       padding: 20px;
+    }
+    p {
+       color: #fffef5;
+       font-size: 20px;
+       font-family: Arial;
+       text-align: center;
+       padding: 20px;
+    }
+    .destacado {
+       color: rgb(245, 248, 246);
+       font-size: 50px;
+       font-family: Arial;
+       text-align: center;
+       padding: 20px;
+    }
+    #titulo-principal {
+       color: rgb(255, 255, 255);
+       font-size: 50px;
+       font-family: Arial;
+       text-align: center;
+       padding: 20px;
+       border: 2px solid rgb(255, 255, 255);
+    }
+    nav, nav a {
+    color: rgb(255, 255, 255);
+    
+      background-color: rgb(14, 14, 15);
+      padding: 15px;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+   }
+
+   table {
+    width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #0d0d0d;
+      padding: 8px;
+      background-color: #f2f2f2;
+      text-align: center;
+   }
+   td {
+      border: 5px solid hsl(0, 0%, 5%);
+      padding: 8px;
+   }
+   th {
+      border: 5px solid hsl(0, 0%, 5%);
+      padding: 8px;
+      background-color: #282928;
+      color: white;
+    }
+    th:hover {
+      background-color: #f2ff01;
+    }
+    .contenido-multimedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+   }
